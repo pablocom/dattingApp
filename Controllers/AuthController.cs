@@ -48,9 +48,10 @@ namespace DatingApp.API.Controllers
         [HttpPost("login")]
         public async Task<IActionResult> Login(UserForLoginDto userForLoginDto)
         {
-            var userFromRepo = await _repo.Login(userForLoginDto.Username, userForLoginDto.Password);
+            // Vemos si hay un usuario que coincida en nuestra bas de datos
+            var userFromRepo = await _repo.Login(userForLoginDto.Username.ToLower(), userForLoginDto.Password);
 
-            if (userFromRepo == null) return Unauthorized();
+            if (userFromRepo == null) return Unauthorized(); // si userFromRepo es null, no 
 
             // si existe tenemos que generar el jwt con el que van a hacer las consultas
             var claims = new[] {
