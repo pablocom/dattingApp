@@ -54,6 +54,7 @@ namespace DatingApp.API.Controllers
             if (userFromRepo == null) return Unauthorized(); // si userFromRepo es null, no 
 
             // si existe tenemos que generar el jwt con el que van a hacer las consultas
+            //
             var claims = new[] {
                 new Claim(ClaimTypes.NameIdentifier, userFromRepo.Id.ToString()),
                 new Claim(ClaimTypes.Name, userFromRepo.Username)
