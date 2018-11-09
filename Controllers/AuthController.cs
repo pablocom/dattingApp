@@ -48,13 +48,14 @@ namespace DatingApp.API.Controllers
         [HttpPost("login")]
         public async Task<IActionResult> Login(UserForLoginDto userForLoginDto)
         {
+
             // Vemos si hay un usuario que coincida en nuestra bas de datos
             var userFromRepo = await _repo.Login(userForLoginDto.Username.ToLower(), userForLoginDto.Password);
-
-            if (userFromRepo == null) return Unauthorized(); // si userFromRepo es null, no 
+            
+            // si userFromRepo es null, no
+            if (userFromRepo == null) return Unauthorized();  
 
             // si existe tenemos que generar el jwt con el que van a hacer las consultas
-            //
             var claims = new[] {
                 new Claim(ClaimTypes.NameIdentifier, userFromRepo.Id.ToString()),
                 new Claim(ClaimTypes.Name, userFromRepo.Username)
@@ -65,8 +66,7 @@ namespace DatingApp.API.Controllers
 
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha512Signature);
 
-            var tokenDescriptor = new SecurityTokenDescriptor
-            {
+            var tokenDescriptor = new SecurityTokenDescriptor {
                 Subject = new ClaimsIdentity(claims),
                 Expires = DateTime.Now.AddDays(1),
                 SigningCredentials = creds
@@ -79,6 +79,9 @@ namespace DatingApp.API.Controllers
             return Ok(new {
                 token = tokenHandler.WriteToken(token)
             });
+
+        
+            return StatusCode(500,"Computer really says no.");            
         }
     }
 }
