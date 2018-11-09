@@ -51,7 +51,7 @@ namespace DatingApp.API.Controllers
 
             // Vemos si hay un usuario que coincida en nuestra bas de datos
             var userFromRepo = await _repo.Login(userForLoginDto.Username.ToLower(), userForLoginDto.Password);
-            
+
             // si userFromRepo es null, no
             if (userFromRepo == null) return Unauthorized();  
 
@@ -78,10 +78,7 @@ namespace DatingApp.API.Controllers
 
             return Ok(new {
                 token = tokenHandler.WriteToken(token)
-            });
-
-        
-            return StatusCode(500,"Computer really says no.");            
+            });          
         }
     }
 }
