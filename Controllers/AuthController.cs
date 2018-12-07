@@ -67,7 +67,7 @@ namespace DatingApp.API.Controllers
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha512Signature);
 
             var tokenDescriptor = new SecurityTokenDescriptor {
-                Subject = new ClaimsIdentity(claims),
+                Subject = new ClaimsIdentity(claims), // aqui esta la identidad del usuario con la que podemos comprobar
                 Expires = DateTime.Now.AddDays(1),
                 SigningCredentials = creds
             };
