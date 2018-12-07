@@ -11964,11 +11964,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Pablo\\Desktop\\Source\\ASP.NET Workspace\\DattingAPP\\DattingApp.API\\DatingApp.API.csproj",
+      "projectUniqueName": "D:\\Source\\ASP.NET Workspace\\DattingAPP\\DattingApp.API\\DatingApp.API.csproj",
       "projectName": "DatingApp.API",
-      "projectPath": "c:\\Users\\Pablo\\Desktop\\Source\\ASP.NET Workspace\\DattingAPP\\DattingApp.API\\DatingApp.API.csproj",
+      "projectPath": "D:\\Source\\ASP.NET Workspace\\DattingAPP\\DattingApp.API\\DatingApp.API.csproj",
       "packagesPath": "C:\\Users\\Pablo\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Pablo\\Desktop\\Source\\ASP.NET Workspace\\DattingAPP\\DattingApp.API\\obj\\",
+      "outputPath": "D:\\Source\\ASP.NET Workspace\\DattingAPP\\DattingApp.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

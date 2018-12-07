@@ -26,3 +26,17 @@ C:\Users\Pablo\Desktop\Source\ASP.NET Workspace\DattingAPP\DattingApp.API\obj\De
 C:\Users\Pablo\Desktop\Source\ASP.NET Workspace\DattingAPP\DattingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.RazorTargetAssemblyInfo.cache
 C:\Users\Pablo\Desktop\Source\ASP.NET Workspace\DattingAPP\DattingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.dll
 C:\Users\Pablo\Desktop\Source\ASP.NET Workspace\DattingAPP\DattingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.pdb
+D:\Source\ASP.NET Workspace\DattingAPP\DattingApp.API\bin\Debug\netcoreapp2.1\DatingApp.API.deps.json
+D:\Source\ASP.NET Workspace\DattingAPP\DattingApp.API\bin\Debug\netcoreapp2.1\DatingApp.API.runtimeconfig.json
+D:\Source\ASP.NET Workspace\DattingAPP\DattingApp.API\bin\Debug\netcoreapp2.1\DatingApp.API.runtimeconfig.dev.json
+D:\Source\ASP.NET Workspace\DattingAPP\DattingApp.API\bin\Debug\netcoreapp2.1\DatingApp.API.dll
+D:\Source\ASP.NET Workspace\DattingAPP\DattingApp.API\bin\Debug\netcoreapp2.1\DatingApp.API.pdb
+D:\Source\ASP.NET Workspace\DattingAPP\DattingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.csprojAssemblyReference.cache
+D:\Source\ASP.NET Workspace\DattingAPP\DattingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.csproj.CoreCompileInputs.cache
+D:\Source\ASP.NET Workspace\DattingAPP\DattingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.RazorAssemblyInfo.cache
+D:\Source\ASP.NET Workspace\DattingAPP\DattingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.RazorAssemblyInfo.cs
+D:\Source\ASP.NET Workspace\DattingAPP\DattingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.AssemblyInfoInputs.cache
+D:\Source\ASP.NET Workspace\DattingAPP\DattingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.AssemblyInfo.cs
+D:\Source\ASP.NET Workspace\DattingAPP\DattingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.RazorTargetAssemblyInfo.cache
+D:\Source\ASP.NET Workspace\DattingAPP\DattingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.dll
+D:\Source\ASP.NET Workspace\DattingAPP\DattingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.pdb
